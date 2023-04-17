@@ -31,7 +31,7 @@ function Weather({ data }) {
             <p>Humidity</p>
           </div>
           <div>
-            <p>{data.wind.speed.toFixed(0)}</p>
+            <p>{data.wind.speed.toFixed(0)} MPH</p>
             <p>Winds</p>
           </div>
         </div>
