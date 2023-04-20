@@ -19,7 +19,7 @@ function Weather({ data }) {
         <p className="text-9xl">{data.main.temp.toFixed(0)}&#176;</p>
       </div>
       {/* Bottom */}
-      <div className="bg-black/75">
+      <div className="bg-black/50 relative p-8 rounded-md">
         <p>Weather in {data.name}</p>
         <div>
           <div>

@@ -38,11 +38,11 @@ export default function Home() {
         {/* Overlay */}
         <div className="absolute top-0 bottom-0 right-0 left-0 bg-black/40 z-[1]" />
         {/* Background Image */}
-        {/* <Image
+        <Image
           src="https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
           fill
           className="object-cover"
-        /> */}
+        />
         {/* Search */}
         <div className="relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 text-white z-10">
           <form
