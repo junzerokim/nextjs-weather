@@ -56,6 +56,7 @@ export default function Home() {
                 }}
                 className="bg-transparent border-none text-white focus:outline-none text-2xl"
                 type="text"
+                size="38"
                 placeholder="Search City"
               />
             </div>
