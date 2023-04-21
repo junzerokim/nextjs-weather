@@ -20,19 +20,19 @@ function Weather({ data }) {
       </div>
       {/* Bottom */}
       <div className="bg-black/50 relative p-8 rounded-md">
-        <p className="text-2xl text-center pb-6">Weather in {data.name}</p>
+        <p className="text-3xl text-center pb-6">{data.name}</p>
         <div className="flex justify-between text-center">
           <div>
-            <p className="font-bold text-2xl">{data.main.feels_like.toFixed(0)}&#176;</p>
-            <p className="text-xl">Feels Like</p>
+            <p className="font-bold text-2xl pb-2">{data.main.feels_like.toFixed(0)}&#176;</p>
+            <p className="text-xl">체감 온도</p>
           </div>
           <div>
-            <p className="font-bold text-2xl">{data.main.humidity}%</p>
-            <p className="text-xl">Humidity</p>
+            <p className="font-bold text-2xl pb-2">{data.main.humidity}%</p>
+            <p className="text-xl">습도</p>
           </div>
           <div>
-            <p className="font-bold text-2xl">{data.wind.speed.toFixed(0)} MPH</p>
-            <p className="text-xl">Winds</p>
+            <p className="font-bold text-2xl pb-2">{data.wind.speed.toFixed(0)} MPH</p>
+            <p className="text-xl">풍량</p>
           </div>
         </div>
       </div>
